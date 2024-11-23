@@ -14,7 +14,7 @@ function categorieEnfant($age) {
         return "Pupille";
     } elseif ($age >= 10 && $age <= 11) {
         return "Minime";
-    } elseif ($age = 12  && $age >12) { 
+    } else  { 
         return "Cadet";
     }
 

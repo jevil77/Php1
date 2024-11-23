@@ -4,7 +4,10 @@
 
 <?php
 
-function Iimposable($sage, $sexe) {
+$age = 25;
+$sexe = 'F';
+
+function imposable($age, $sexe) {
 
 
     if ($sexe == 'F' &&  $age >= 18 && $age <= 35) {
@@ -21,8 +24,7 @@ function Iimposable($sage, $sexe) {
 }
 
 
-$age = 25;
-$sexe = 'F';
+
 
 echo "La personne est " .imposable($age, $sexe); 
 

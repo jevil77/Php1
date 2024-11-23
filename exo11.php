@@ -26,6 +26,6 @@ foreach($marques as $marque) {
 $nbMarques = count($marques);
 
 
-echo "Le nombre de marques est de $nbmarques";
+echo "Le nombre de marques est de $nbMarques";
 
 
